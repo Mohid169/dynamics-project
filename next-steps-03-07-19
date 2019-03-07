@@ -1,0 +1,15 @@
+Adjustments needed for the code: 
+
+1) Account for the initial mass of the rocket instead of the initial pressure. Use the inital mass to define launch pressure, 
+since mass is a the only independent variable (controlled by user). 
+
+2) Add drag force to both while loops (determine drag coefficient). 
+
+3) Determine whether transverse wind forces need to be accounted for. If yes, determine the effect they have on velocity (most likely a 
+trigonometric relationship). 
+
+4) Determine whether the temperature needs to be accounted for. If yes, determine the effect it has on the pressure relationships. 
+
+5) Are we accounting for pressure change as a function of mass flow rate? 
+
+... Anything else? 
